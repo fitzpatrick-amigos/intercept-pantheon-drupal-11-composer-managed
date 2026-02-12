@@ -72,7 +72,6 @@
             },
             "drupal/views_autosubmit": {
                 "Issue #3423712: Exposed for inputs lose focus when autosubmitting": "https://git.drupalcode.org/project/views_autosubmit/-/merge_requests/12.patch",
-                "Issue #3424516: Add a visually hidden message for screen readers letting users": "https://git.drupalcode.org/project/views_autosubmit/-/merge_requests/13.patch"
             },
             "drupal/views_infinite_scroll": {
                 "Stops immediate autoloading": "https://www.drupal.org/files/issues/2021-06-30/stop-immediate-autoloading-3207098-8.patch",
