@@ -10,10 +10,6 @@
         {
             "type": "git",
             "url": "https://github.com/lordelph/php-sip2.git"
-        },
-        {
-            "type": "git",
-            "url": "https://git.drupalcode.org/project/intercept_profile.git"
         }
     ],
     "require": {
@@ -30,6 +26,7 @@
         "drupal/image_effects": "^4.0",
         "drupal/intercept_base": "2.0.x-dev",
         "drupal/intercept": "2.0.x-dev",
+        "drupal/intercept_profile": "2.0.x",
         "drupal/jsonapi_extras": "^3.26",
         "drupal/key": "^1.14",
         "drupal/media_entity_slideshow": "^2.4",
