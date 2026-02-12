@@ -6,14 +6,6 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/lordelph/php-sip2.git"
-        },
-        {
-            "type": "git",
-            "url": "https://git.drupalcode.org/project/intercept_profile.git"
         }
     ],
     "require": {
@@ -22,12 +14,8 @@
         "drupal/date_popup": "^2.0",
         "drupal/date_recur": "^3.9",
         "drupal/date_recur_modular": "^3.2.1",
-        "drupal/default_content": "2.0.x-dev",
         "drupal/gin": "^5.0",
         "drupal/gin_toolbar": "^3.0",
-        "drupal/image_effects": "^4.0",
-        "drupal/intercept_base": "2.0.x-dev",
-        "drupal/intercept": "2.0.x-dev",
         "drupal/jsonapi_extras": "^3.26",
         "drupal/key": "^1.14",
         "drupal/media_entity_slideshow": "^2.4",

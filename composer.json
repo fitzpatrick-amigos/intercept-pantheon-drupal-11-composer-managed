@@ -11,6 +11,14 @@
         {
             "type": "path",
             "url": "upstream-configuration"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/lordelph/php-sip2.git"
+        },
+        {
+            "type": "git",
+            "url": "https://git.drupalcode.org/issue/intercept_profile-3573199.git"
         }
     ],
     "require": {
@@ -28,7 +36,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
         "drupal-scaffold": {
@@ -80,7 +88,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "phpstan/extension-installer": true,
             "php-http/discovery": true,
-            "tbachert/spi": true
+            "tbachert/spi": true,
+            "mglaman/composer-drupal-lenient": true
         }
     }
 }
