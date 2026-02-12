@@ -37,7 +37,7 @@
         "drupal/smsframework": "^2.3",
         "drupal/stories": "^3.0",
         "drupal/view_unpublished": "^1.0",
-        "drupal/views_autosubmit": "1.x-dev#25ddfec7982a46f0e5c42754aca8d56e8a669630",
+        "drupal/views_autosubmit": "1.x-dev",
         "drupal/views_bulk_operations": "^4.0",
         "drupal/views_filters_summary": "^3.0",
         "drupal/views_infinite_scroll": "^2.0",
@@ -71,7 +71,6 @@
                 "Allows recipient number to be stored in message options instead of a user entity": "https://www.drupal.org/files/issues/2021-03-15/3203755-smsframework-2.x-dev-recipient-options.patch"
             },
             "drupal/views_autosubmit": {
-                "Stops autosubmit from happening too quickly": "https://www.drupal.org/files/issues/2024-04-03/views_autosubmit-increase-timeout-for-autocompletes-3160600-29.patch",
                 "Issue #3423712: Exposed for inputs lose focus when autosubmitting": "https://git.drupalcode.org/project/views_autosubmit/-/merge_requests/12.patch",
                 "Issue #3424516: Add a visually hidden message for screen readers letting users": "https://git.drupalcode.org/project/views_autosubmit/-/merge_requests/13.patch"
             },
@@ -80,7 +79,7 @@
                 "Support views grouping": "https://www.drupal.org/files/issues/2021-10-25/views_infinite_scroll-grouping-support-2813145-22.patch"
             },
             "drupal/webform": {
-                "Removes unnecessary Webform notices on system pages": "patches/webform-remove-notices.patch",
+                "Removes unnecessary Webform notices on system pages": "patches/webform-remove-notices.patch"
             },
             "drupal/webformautosave": {
                 "Disables automatic purging of submissions": "https://www.drupal.org/files/issues/2025-02-06/3504940-webform_autosave-disables-automatic-purging.patch"
