@@ -18,7 +18,7 @@
         },
         {
             "type": "git",
-            "url": "https://git.drupalcode.org/issue/intercept_profile.git"
+            "url": "https://git.drupalcode.org/project/intercept_profile.git"
         }
     ],
     "require": {
