@@ -68,7 +68,7 @@
                 "Allows recipient number to be stored in message options instead of a user entity": "https://www.drupal.org/files/issues/2021-03-15/3203755-smsframework-2.x-dev-recipient-options.patch"
             },
             "drupal/views_autosubmit": {
-                "Issue #3423712: Exposed for inputs lose focus when autosubmitting": "https://git.drupalcode.org/project/views_autosubmit/-/merge_requests/12.patch",
+                "Issue #3423712: Exposed for inputs lose focus when autosubmitting": "https://git.drupalcode.org/project/views_autosubmit/-/merge_requests/12.patch"
             },
             "drupal/views_infinite_scroll": {
                 "Stops immediate autoloading": "https://www.drupal.org/files/issues/2021-06-30/stop-immediate-autoloading-3207098-8.patch",
