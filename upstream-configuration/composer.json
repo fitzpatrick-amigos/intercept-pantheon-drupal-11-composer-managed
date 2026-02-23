@@ -82,6 +82,11 @@
             },
             "lordelph/php-sip2": {
                 "Adds controller support for patrons and organizations": "https://www.drupal.org/files/issues/2021-12-10/3253888-php-sip2-module-integration.patch"
+            },
+            "drupal/intercept": {
+                "fix undefined config in intercept_events": "https://git.drupalcode.org/project/intercept/-/merge_requests/20.diff",
+                "Require fullcalendar as dependency for intercept_event": "https://git.drupalcode.org/project/intercept/-/merge_requests/19.diff",
+                "check for locations before sorting locations array": "https://git.drupalcode.org/project/intercept/-/merge_requests/18.diff"
             }
         },
         "drupal-lenient": {
