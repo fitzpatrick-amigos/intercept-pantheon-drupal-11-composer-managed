@@ -1,0 +1,12 @@
+diff --git a/modules/intercept_event/src/Form/EventRecurrenceEventsForm.php b/modules/intercept_event/src/Form/EventRecurrenceEventsForm.php
+index 2fd2274a..fa3df389 100644
+--- a/modules/intercept_event/src/Form/EventRecurrenceEventsForm.php
++++ b/modules/intercept_event/src/Form/EventRecurrenceEventsForm.php
+@@ -340,6 +340,7 @@ class EventRecurrenceEventsForm extends ContentEntityForm {
+     $event = $base_event->createDuplicate();
+     $event->set('field_date_time', $date_time);
+     $event->set('event_recurrence', $recurrence->id());
++    $event->set('field_event_register_period', null);
+     $event->save();
+     $manager = \Drupal::service('intercept_core.reservation.manager');
+     if ($reservation = $manager->getEventReservation($base_event)) {
