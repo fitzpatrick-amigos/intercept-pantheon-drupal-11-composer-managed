@@ -88,7 +88,8 @@
                 "check for locations before sorting locations array": "https://git.drupalcode.org/project/intercept/-/merge_requests/18.diff",
                 "Require fullcalendar_block as dependency for intercept_event": "https://git.drupalcode.org/project/intercept/-/merge_requests/19.diff",
                 "fix undefined config in intercept_events": "https://git.drupalcode.org/project/intercept/-/merge_requests/20.diff",
-                "add dependency for intercept_bulk_room_reservation": "https://git.drupalcode.org/project/intercept/-/merge_requests/21.diff"
+                "add dependency for intercept_bulk_room_reservation": "https://git.drupalcode.org/project/intercept/-/merge_requests/21.diff",
+                "nullify field_event_registration_period when recurring events are generated": "patches/null-reg-period.patch"
             }
         },
         "drupal-lenient": {
