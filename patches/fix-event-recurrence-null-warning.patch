@@ -1,0 +1,14 @@
+diff --git a/modules/intercept_event/intercept_event.module b/modules/intercept_event/intercept_event.module
+index 12683e9a..25be6714 100644
+--- a/modules/intercept_event/intercept_event.module
++++ b/modules/intercept_event/intercept_event.module
+@@ -950,8 +950,7 @@ function intercept_event_node_event_form_validate(&$form, FormStateInterface $fo
+   else {
+     $room_id = NULL;
+   }
+-  $event_recurrence = $values['event_recurrence'][0]['inline_entity_form']['field_event_rrule'][0]['mode'] ?? '';
+-  $event_recurrence = ($event_recurrence !== 'once') ? $event_recurrence : '';
++  $event_recurrence = ($values['event_recurrence'][0]['inline_entity_form']['field_event_rrule'][0]['mode'] !== 'once') ? $values['event_recurrence'][0]['inline_entity_form']['field_event_rrule'][0]['mode'] : '';
+   if (!empty($event_recurrence) && !empty($values['reservation']) && $ajax_form != TRUE && $room_id && $new_node == TRUE) {
+     // Check for conflicts.
+     $date_utility = \Drupal::service('intercept_core.utility.dates');
